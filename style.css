@@ -47,3 +47,38 @@ body {
   gap: 10px;
   /* Jarak antar link */
 }
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ============= MAIN CONTENT =============== */
+/* kontainer utama isi halaman */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*sidebar/left column: bagian samping */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* mail column bagian utama konten */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+/* Fake image: blok */
+.fakeimg {
+  /* background-color: #aaa; */
+  width: 100%;
+  padding: 20px;
+}
