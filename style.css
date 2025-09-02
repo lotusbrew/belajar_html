@@ -1,0 +1,49 @@
+/* Universal selecto: agar padding & dan border masuk hitungan width/height semua elemen*/
+* {
+  box-sizing: border-box;
+}
+
+/* Body style: font dan margin defult*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* ========== HEADER ========== */
+/* Hero section: bagian atas halaman*/
+.hero {
+  padding: 80px;
+  text-align: center;
+  /* background: #1abc9c; */
+  background-image: url('halo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Judul hero */
+.hero h1 {
+  font-size: 40px;
+}
+
+/* paragraf hero */
+.hero p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* ========== navbar ========== */
+/* navbar utama */
+.navbar {
+  position: relative;
+  /* Untuk posisi tombol close */
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* link rata kanan */
+  gap: 10px;
+  /* Jarak antar link */
+}
